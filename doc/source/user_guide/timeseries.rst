@@ -1413,6 +1413,10 @@ or some other non-observed day.  Defined observance rules are:
     "next_monday_or_tuesday", "move Saturday to Monday and Sunday/Monday to Tuesday"
     "previous_friday", move Saturday and Sunday to previous Friday"
     "next_monday", "move Saturday and Sunday to following Monday"
+    "previous_workday", "move date to previous workday, even for Mon-Fri"
+    "next_workday", "move date to next workday, even for Mon-Fri"
+    "before_nearest_workday", "the workday before the nearest workday"
+    "after_nearest_workday", "the workday after the nearest workday"
 
 An example of how holidays and holiday calendars are defined:
 
